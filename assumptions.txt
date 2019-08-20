@@ -1,0 +1,10 @@
+1. When matching tap ons and tap offs, the DateTimeUTC field gives a more accurate representation of the
+sequence of taps then the ID field.
+
+2. taps.csv is a standard comma seperated value format
+
+3. Payment Card Industry compliance is outside the scope of this exercise.
+
+4. That every tap off in the taps.csv file can be matched with a tap on.
+
+5. That a new trip.csv should be created on each application run.
